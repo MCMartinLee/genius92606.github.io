@@ -4,30 +4,48 @@ permalink: /publications/
 layout: archive
 classes: wide
 author_profile: true
+bar: 
+  - excerpt: ''
 ---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-## **Publications**
-- **[ICMI'24]** Online Multimodal End-of-Turn Prediction for Three-party Conversations [PDF](https://graphics.cs.uh.edu/wp-content/papers/2024/2024-ICMI-OnlineTurnPrediction.pdf){: .btn} <br>
-**Best Paper Runner Up**  <span style="color:purple">| AWARD ICMI 2024</span> <br>
-    <img src="/assets/images/ICMI_Certificate.jpeg" alt="Certificate" width="400"/>
-  + **Meng-Chen Lee** and Zhigang Deng 
-  + Proceeding of 26th ACM International Conference on Multimodal Interaction (ICMI) 2024, Costa Rica, Nov 4-8, 2024, pp. 57 – 65. [DOI: 10.1145/3678957.3685742](https://doi.org/10.1145/3678957.3685742)
+## Publications
+I have been exploring different approaches to model human conversations, focusing on turn managament, eye gaze mimic, and gesture generation:
 
-- **[IVA'24]** Computational Study on Sentence-based Next Speaker Prediction in Multiparty Conversations [PDF](https://graphics.cs.uh.edu/wp-content/papers/2024/2024-IVA-SetenceLevelNextSpeakerStudy.pdf){: .btn} 
-  + **Meng-Chen Lee**, Wu Angela Li, and Zhigang Deng 
-  + Proceeding of ACM International Conference on Intelligent Virtual Agents (IVA) 2024, September 16–19, 2024, Glasgow, UK, ACM Press.
+{% include feature_row id="bar" type="left" %}
 
-- **[ICMI'23]** Multimodal Turn Prediction and Analysis for Multiparty Conversations [PDF](https://graphics.cs.uh.edu/wp-content/uploads/papers/2023/2023-ICMI-MultimodalTurnAnalysis.pdf){: .btn} 
-  + **Meng-Chen Lee**, Mai Trinh, and Zhigang Deng 
-  + Proceeding of 25th ACM International Conference on Multimodal Interaction (ICMI) 2023, Paris, France, Oct 9-13, 2023, pp. 436 - 444. [DOI: 10.1145/3577190.3614139](https://dl.acm.org/doi/10.1145/3577190.3614139)
+[**[ICMI'25] Enhancing Gaze Prediction in Multi-Party Conversations via Speaker-Aware Multimodal Adaptation**](https://graphics.cs.uh.edu/wp-content/papers/2025/2025-ICMI-GazePredictionFromText.pdf)
 
-## **Professional Service**
+Developed SAT5, a speaker-aware adaptation of the T5 model, to predict gaze directions in three-party conversations using only linguistic and speaker cues, without direct visual input.
 
-Reviewer, IEEE Transactions on Visualization and Computer Graphics (TVCG) 
 
-## **Working**
+[**[ICMI'25] Learning Multimodal Motion Cues for Online End-of-Turn Prediction in Multi-Party Dialogue**](https://graphics.cs.uh.edu/wp-content/papers/2025/2025-ICMI-LearningMultimodalCuesforEOT.pdf)
 
-- LatentDiffuseCLIP-VQMotion: A Novel Framework for Generating Realistic Two-Person Conversations with Enhanced Motion Fidelity
+Proposed a real-time end-of-turn prediction framework for multi-party conversations by learning symbolic motion representations (head, hand, body) through VQ-VAE, achieving superior performance compared to traditional multimodal
+baselines.
+
+[**[ICMI'24] Online Multimodal End-of-Turn Prediction for Three-party Conversations**](https://graphics.cs.uh.edu/wp-content/papers/2024/2024-ICMI-OnlineTurnPrediction.pdf) <br>
+<i class="fas fa-award" style="color:orange"></i> <span style="color:orange">Best Paper Runner Up</span>
+<!-- + Proceeding of 26th ACM International Conference on Multimodal Interaction (ICMI) 2024, Costa Rica, Nov 4-8, 2024, pp. 57 – 65. [DOI: 10.1145/3678957.3685742](https://doi.org/10.1145/3678957.3685742) -->
+
+[**[IVA'24] Computational Study on Sentence-based Next Speaker Prediction in Multiparty Conversations**](https://graphics.cs.uh.edu/wp-content/papers/2024/2024-IVA-SetenceLevelNextSpeakerStudy.pdf)
+
+
+[**[ICMI'23] Multimodal Turn Prediction and Analysis for Multiparty Conversations**](https://graphics.cs.uh.edu/wp-content/uploads/papers/2023/2023-ICMI-MultimodalTurnAnalysis.pdf)
+
+
+## Professional Service
+{% include feature_row id="bar" type="left" %}
+2025 &nbsp; Reviewer, IEEE Transactions on Visualization and Computer Graphics (TVCG) <br>
+2024 &nbsp; Reviewer, IEEE Transactions on Visualization and Computer Graphics (TVCG) 
+
+## In progress
+
+**DialogueDiffu: Dyadic Conversational Co-Speech Gesture Synthesis** <br>
+A diffusion-based dyadic gesture synthesis framework that integrates contrastive multimodal pretraining and latent motion modeling to generate realistic, semantically aligned co-speech gestures.
+
+**Multi-TPC: A Multimodal Dataset for Three-Party Conversations with Speech, Motion, and Gaze** <br>
+A large-scale multimodal dataset of three-party conversations with synchronized speech, motion, and gaze, and proposed TMEGNet, a baseline model for gesture synthesis and gaze prediction.
 
 ## Awards
 

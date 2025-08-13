@@ -45,20 +45,23 @@ gallery1:
     
 gallery3:
   - url: /projects/Cranial-bone-repair
-    image_path: /assets/projects/Road.PNG
+    image_path: /assets/images/ICMI_Certificate.jpeg
     alt: "placeholder image 1"
+  - url: /projects/Cranial-bone-repair
+    image_path: /assets/projects/Road.PNG
+    alt: "placeholder image 2"
   - url: /projects/veinnavi
     image_path: /assets/projects/emedic.gif
-    alt: "placeholder image 2"
+    alt: "placeholder image 3"
   - url: /projects/SkyPrenatal
     image_path: /assets/projects/prague4.png
-    alt: "placeholder image 3"
+    alt: "placeholder image 4"
   - url: /projects/Bamboo-rat-simulator
     image_path: /assets/projects/sample.png
-    alt: "placeholder image 4"
+    alt: "placeholder image 5"
   - url: /projects/remote-car
     image_path: /assets/projects/remote.jpg
-    alt: "placeholder image 4"
+    alt: "placeholder image 6"
 author_profile: true
 ---
 
