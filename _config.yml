@@ -116,7 +116,7 @@ author:
   avatar           : "/assets/images/profile_pic.jpg"
   bio              : "I am a Ph.D. candidate in Computer Science, deeply passionate about computer graphics, specializing in multiparty conversation analysis, animation, and simulation. My expertise spans deep learning, large language models (LLMs), multimodal systems, and motion generation. I am actively exploring internship opportunities where I can apply my research skills in dynamic and collaborative settings."
   location         : "Houston, Texas"
-  email            : "martin33156@gmail.com"
+#  email            : "martin33156@gmail.com"
   links:
  #   - label: "Twitter"
  #     icon: "fab fa-fw fa-twitter-square"
@@ -126,19 +126,19 @@ author:
  #     url: "https://facebook.com/profile.php?id=100000413662587"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/genius92606"
+      url: "https://github.com/MCMartinLee"
  #   - label: "Instagram"
  #     icon: "fab fa-fw fa-instagram"
  #     url: "https://instagram.com/dream_fall92606/"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/genius92606/"
+      url: "https://www.linkedin.com/in/MCMartinLee/"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap" # or "fas fa-fw fa-university"
       url: "https://scholar.google.com/citations?user=bXlQ8mEAAAAJ&hl=en"
-    - label: "Resume"
+    - label: "CV"
       icon: "fa fa-file"
-      url: "https://github.com/genius92606/genius92606.github.io/raw/master/assets/Resume.pdf"
+      url: "https://github.com/MCMartinLee/mcmartinlee.github.io/raw/master/assets/CV.pdf"
       
 
 
@@ -153,7 +153,7 @@ footer:
 #      url: "https://facebook.com/profile.php?id=100000413662587"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/genius92606"
+      url: "https://github.com/MCMartinLee"
     #- label: "GitLab"
      # icon: "fab fa-fw fa-gitlab"
       # url:
@@ -232,7 +232,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: Asia/Taipei # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: US/Central # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
