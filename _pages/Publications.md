@@ -41,6 +41,7 @@ baselines.
 
 ## In progress
 
+{% include feature_row id="bar" type="left" %}
 **DialogueDiffu: Dyadic Conversational Co-Speech Gesture Synthesis** <br>
 A diffusion-based dyadic gesture synthesis framework that integrates contrastive multimodal pretraining and latent motion modeling to generate realistic, semantically aligned co-speech gestures.
 
@@ -49,6 +50,7 @@ A large-scale multimodal dataset of three-party conversations with synchronized 
 
 ## Awards
 
+{% include feature_row id="bar" type="left" %}
 - [Spring 2024 UH CS Ph.D. Research Showcase Judge's Choice Best Poster](https://uh.edu/nsm/computer-science/events/phd-showcase/)
 - [Fall 2024 UH CS Ph.D. Research Showcase Judge's Choice Best Poster](https://uh.edu/nsm/computer-science/events/phd-showcase/)
 - [Fall 2024 UH CS Ph.D. Research Showcase People's Choice Best Poster](https://uh.edu/nsm/computer-science/events/phd-showcase/)
